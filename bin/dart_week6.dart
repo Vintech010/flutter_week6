@@ -1,14 +1,21 @@
 
 import 'package:dart_week6/ocupation.dart';
 import 'package:dart_week6/person.dart';
+import 'package:dart_week6/polymorphism.dart';
 import 'package:dart_week6/super.dart';
 import 'package:dart_week6/super2.dart';
 
 void main(){
-  superDart2();
+  polymorp();
+  // superDart2();
   // superDart();
   // multilevelInheritance();
   // singleInheritance();
+}
+
+void polymorp(){
+  MacbookPro macbookpro = MacbookPro();
+  macbookpro.display();
 }
 
 void superDart2(){
